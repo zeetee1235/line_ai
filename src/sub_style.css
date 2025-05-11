@@ -1,0 +1,39 @@
+﻿body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f4fbff;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+}
+
+img.logo {
+    width: 150px;
+    margin: 0 auto 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subinfo {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+canvas {
+    max-width: 100%;
+    background-color: #eaf6fa;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 0 auto 30px;
+}
+
+.label {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}

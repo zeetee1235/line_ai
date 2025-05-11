@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>성심당 대기 정보</title>
+
+    <!-- Chart.js 라이브러리 로드 -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- 외부 CSS 연결 -->
+    <link rel="StyleSheet" href="sub_style.css" />
+</head>
+<body>
+
+    <!-- 로고 이미지 (주의: 이미지 파일은 서버 경로로 수정 필요) -->
+    <img src="images/logo.png" alt="성심당 로고" class="logo" />
+
+    <!-- 매장 정보 -->
+    <h1>성심당 본점</h1>
+    <div class="subinfo">영업시간<br>월 ~ 일 08:00 ~ 22:00</div>
+
+    <!-- 차트 영역 -->
+    <canvas id="waitChart" height="180"></canvas>
+
+    <!-- 대기 정보 -->
+    <div class="label" id="waitTime">예상 시간: 00분</div>
+    <div class="label" id="waitCount">현재 대기 인원: 0명</div>
+
+    <!-- 외부 JS 연결 -->
+    <script1 src="sub_script.js"></script1>
+</body>
+</html>
