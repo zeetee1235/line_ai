@@ -11,7 +11,7 @@ try:
 except FileNotFoundError:
     config = {}
 
-ip = config.get("ip", "192.168.XXX.XXX")
+ip = config.get("raspberry_pi_ip", "192.168.XXX.XXX")  # 수정: "ip" → "raspberry_pi_ip"
 port = config.get("port", 8080)
 stream_url = f"http://{ip}:{port}/?action=stream"  # 라즈베리파이의 스트리밍 URL
 cap = cv2.VideoCapture(stream_url)

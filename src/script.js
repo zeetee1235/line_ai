@@ -17,7 +17,7 @@ function handleSearch() {
 
     if (matched.length === 0) {
         // 일치 항목이 없을 경우 메시지 출력
-        result.innerText = `"${input}"에 대한 결과가 없습니다.`;
+        result.innerText = `"${input}"에 대한 결과가 없습니다.`;  // 수정: 템플릿 리터럴 사용
     } else {
         // 검색 결과가 있을 경우 HTML로 결과 표시
         result.innerHTML = `
