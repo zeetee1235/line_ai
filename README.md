@@ -47,7 +47,7 @@ scp -r raspi/ pi@<raspberry_ip>:/home/pi/line_ai/
 #### 방법 B: 라즈베리파이에서 직접 클론
 ```sh
 ssh pi@<raspberry_ip>
-git clone https://github.com/zeetee1235/line_ai_raspi.git raspi
+git clone https://github.com/zeetee1235/line_ai_raspi.git
 ```
 
 라즈베리파이에서 스트리밍 시작:
