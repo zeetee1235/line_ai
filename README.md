@@ -1,6 +1,6 @@
 # Line AI 프로젝트: 객체 인식 및 스트리밍 솔루션
 
-![Project Banner](images/banner.png)
+![Project Banner](images/Line_Ai.png)
 
 ## 프로젝트 소개
 Line AI 프로젝트는 **YOLOv3 기반의 객체 인식 시스템**과 **실시간 비디오 스트리밍** 기능을 제공하여, LINE 메신저 연동을 통한 혁신적인 사용자 경험을 선사합니다.  
